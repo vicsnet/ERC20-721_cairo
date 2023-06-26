@@ -1,0 +1,82 @@
+{
+  "sierra_program": [
+    "0x1",
+    "0x1",
+    "0x0",
+    "0x1",
+    "0x1",
+    "0x0",
+    "0x1",
+    "0xff",
+    "0x0",
+    "0x4",
+    "0x0"
+  ],
+  "sierra_program_debug_info": {
+    "type_names": [],
+    "libfunc_names": [],
+    "user_func_names": []
+  },
+  "contract_class_version": "0.1.0",
+  "entry_points_by_type": {
+    "EXTERNAL": [],
+    "L1_HANDLER": [],
+    "CONSTRUCTOR": []
+  },
+  "abi": [
+    {
+      "type": "event",
+      "name": "Transfer",
+      "inputs": [
+        {
+          "name": "from",
+          "type": "core::starknet::contract_address::ContractAddress"
+        },
+        {
+          "name": "to",
+          "type": "core::starknet::contract_address::ContractAddress"
+        },
+        {
+          "name": "tokenId",
+          "type": "core::integer::u256"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "name": "Approval",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "core::starknet::contract_address::ContractAddress"
+        },
+        {
+          "name": "approved",
+          "type": "core::starknet::contract_address::ContractAddress"
+        },
+        {
+          "name": "to",
+          "type": "core::integer::u256"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "name": "ApprovalForAll",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "core::starknet::contract_address::ContractAddress"
+        },
+        {
+          "name": "operator",
+          "type": "core::starknet::contract_address::ContractAddress"
+        },
+        {
+          "name": "approved",
+          "type": "core::bool"
+        }
+      ]
+    }
+  ]
+}

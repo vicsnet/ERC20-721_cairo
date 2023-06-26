@@ -1,0 +1,5 @@
+[package]
+name = "ERC721"
+version = "0.1.0"
+
+[dependencies]
